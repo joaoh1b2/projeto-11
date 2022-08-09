@@ -16,7 +16,7 @@ function setup(){
   ship = createSprite(200,300,40,40);
   ship.addAnimation("ship.1.png","ship.2.png","ship.3.png","ship.4.png");
   ship.scale = 0.15
-  ship.velocityX = 2
+  ship.velocityX = 1
   
   invisibleSea = createSprite(200,350,400,20);
   invisibleSea.visible = false;
